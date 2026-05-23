@@ -349,7 +349,7 @@ Twenty phases. Click any phase to expand its lesson list.
 | 04 | [Image Classification](phases/04-computer-vision/04-image-classification/) | Build | Python |
 | 05 | [Transfer Learning & Fine-Tuning](phases/04-computer-vision/05-transfer-learning/) | Build | Python |
 | 06 | [Object Detection — YOLO from Scratch](phases/04-computer-vision/06-object-detection-yolo/) | Build | Python |
-| 07 | [Semantic Segmentation — U-Net](phases/04-computer-vision/07-semantic-segmentation-unet/) | Build | Python |
+| 07 | [Semantic Segmentation — The U-Net Architecture](phases/04-computer-vision/07-semantic-segmentation-unet/) | Build | Python |
 | 08 | [Instance Segmentation — Mask R-CNN](phases/04-computer-vision/08-instance-segmentation-mask-rcnn/) | Build | Python |
 | 09 | [Image Generation — GANs](phases/04-computer-vision/09-image-generation-gans/) | Build | Python |
 | 10 | [Image Generation — Diffusion Models](phases/04-computer-vision/10-image-generation-diffusion/) | Build | Python |
