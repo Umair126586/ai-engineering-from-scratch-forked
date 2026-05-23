@@ -1,0 +1,7 @@
+An AI Engineering environment has 4 layers:
+1. System Foundation e.g., GPU drivers
+2. Package Managers e.g., uv
+3. Language Runtime e.g. python
+4. AI/ML libraries e.g., pytorch
+
+
