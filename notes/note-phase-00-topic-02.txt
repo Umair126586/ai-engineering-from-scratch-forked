@@ -1,0 +1,5 @@
+- Learnt about how to manage this repo through git
+- Coding so many stuff across 20 phases will be lost if we don't go with version control
+- For this repo, we don't need submodules, merging and rebasing we just need to have an understanding of git add, git commit and git push
+- The author talks about cloning the repo and then working locally in a separate branch
+- I have first forked the original repo and then cloned that forked version just like we do in open-source collaboration
