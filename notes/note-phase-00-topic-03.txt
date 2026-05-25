@@ -1,0 +1,4 @@
+- fp16 is floating point 16 means half precision floating point, which takes 2 bytes (16 bits)
+- Major and Minor in gpu device properties are regardless of gpu vram. Major and minor tells the gpu architecture and CUDA features
+- torch.cuda.synchronize() basically lets the gpu operations to complete, so without it "gpu compute time" cannot be measured correctly
+- nvidia-smi (System Management Interface) is the standard command for checking things related to nvidia GPU
