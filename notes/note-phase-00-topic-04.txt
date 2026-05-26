@@ -1,0 +1,16 @@
+Every api call has the following componenents:
+1. An endpoint (URL)
+2. An API Key, given in the header
+3. A request body, encoded to bytes
+4. A response 
+
+
+- We cannot use simple python dict as data type of request body because it has no .encode() option which json string object has
+- Leverage python's urllib.request to send raw http requests
+- 500, 501 and 502 are server-side errors
+- 400 is the request body malformed error
+- 401 is the authorization client-side error
+- 402 is the api permission forbidden error
+- 429 is the rate-limit error
+
+- If the credit balance is low, it will hit a 400 Bad Request Error
