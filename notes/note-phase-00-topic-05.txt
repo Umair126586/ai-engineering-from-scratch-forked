@@ -1,0 +1,18 @@
+Jupyter Notebooks:
+1. Ideal for experimentation
+2. Exploration
+3. Visualizaton
+4. Explaining your work/code OR Prototyping
+
+Python Scripts:
+1. For production
+2. For reusable utilities
+3. Pacakges and libraries
+
+
+Magic Commands:
+- %time: Inline Magic (runs many times and averages)
+- %%time: Cell Magic (runs it once)
+- %env: exploring environment variables
+- %matplotlib inline: to visualize inline 
+- Place ! behind to run shell commands like "!uv pip install scikit-learn"
