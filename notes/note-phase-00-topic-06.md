@@ -31,7 +31,7 @@ cd my-ai-project
 : '
 # Till now .venv does not exist. To make a virtual environment:
 # 1. Run `uv add pkg-name` OR
-# 2. RUn `uv venv`
+# 2. Run `uv venv`
 '
 uv add numpy matplotlib     #This also syncs with the pyproject.toml
 
@@ -54,10 +54,10 @@ uv pip install -r requirements.lock  --index-strategy unsafe-best-match
 ```
 
 ## Key Take aways
-1. Conda env may be good if you want to manage some non-python libraries, for example, if you don't want to use a system-wide cuda-toolkit, you can create a conda environment and then install you own cuda-toolkit
+1. Conda env may be good if you want to manage some non-python libraries, for example, if you don't want to use a system-wide cuda-toolkit, you can create a conda environment and then install cuda-toolkit version of your choice
 2. When working in a conda environment, always install all the libraries with 'conda' first and then move to 'pip' only libraries
 3. uv is the recommended way generally
-4. Pytorch CUDA version must be smaller than Nvidia-cuda version
+4. Pytorch CUDA version must be smaller than or equal to Nvidia-cuda version
 e.g.,
 ```bash
 nvidia-smi                # shows driver CUDA version (e.g., 12.4)
